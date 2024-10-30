@@ -1,0 +1,67 @@
+body{
+    background-color: bisque;
+    background-image: url(https://i.pinimg.com/originals/72/eb/90/72eb903ee884f7c03d7fadd74616a457.jpg);
+}
+
+img {
+    width: 180px;
+    position: absolute;
+    bottom: 5px;
+    animation: movimento 5s ease forwards;
+}
+
+
+@keyframes movimento {
+    from{
+        transform: translate(0,0);
+    }    
+
+    to{
+        transform: translate(calc(100vw - 180px), 0px);
+    }
+
+}
+
+ .nuvem{
+    width: 180px;
+    position: absolute;
+    top: 5px;
+    animation: move 4s ease forwards;
+}
+
+@keyframes move {
+    from{
+        transform: translate(0,0);
+    }    
+
+    to{
+        transform: translate(calc(100vw - 180px), 0px);
+    }
+
+}
+
+.pessoa{
+    width: 180px;
+    position: absolute;
+    bottom: 5px;
+    animation: moves 6s ease reverse;
+}
+
+@keyframes moves {
+    from{
+        transform: translate(0,0);
+    }    
+
+    to{
+        transform: translate(calc(100vw - 180px), 0px);
+    }
+
+}
+
+
+.mooven{
+    width: 180px;
+    position: absolute;
+    top: 5px;
+    animation: move 6s ease reverse;
+}
